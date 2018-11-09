@@ -22,7 +22,7 @@ class Home extends Component {
         const postList = posts.length ? (
             posts.map(post => {
                 return (
-                    <div className="post card" key={post.id}>
+                    <div className="post-card" key={post.id}>
                         <img src={Pokeball} alt="A pokeball" />
                         <div className="card-content">
                             <Link to={'/:post_id' + post.id}>
